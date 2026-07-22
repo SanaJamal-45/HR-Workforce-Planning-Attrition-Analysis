@@ -63,7 +63,9 @@ The dashboard addresses the following business questions:
 - Engagement-at-exit analysis to flag retention risk
 
 ## Dashboard Preview
-![Dashboard Preview](dashboard-1.png)
+![Executive Overview](Executive%20Overview.png)
+![Attrition and Retention](Attrition%20and%20Retention.png)
+![Planning and Recruitment](Planning%20and%20Recruitment.png)
 
 ## Business Insights
 - **Headcount is 999 (Dec 2025)**, up 1.3% MoM, but still **80 heads (-7.4%) below the staffing plan** of 1,079.
@@ -108,7 +110,7 @@ CALCULATE(AVERAGE(FactEngagement[EngagementScore]), DimEmployee[EmploymentStatus
 
 ## How to Use
 1. Clone or download this repository.
-2. Open `HR_Analytics.pbix` in **Power BI Desktop**.
+2. Open `HR Analytics.pbix` in **Power BI Desktop**.
 3. Use the slicers (Department, Location, Level, Date) to filter each page.
 4. Click into any visual to drill down by department, role, or level.
 
